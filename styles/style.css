@@ -147,12 +147,13 @@
 }
 
 .table {
-  width: 1100px;
+  max-width: 1100px;
   list-style-type: none;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 0;
 }
 
 .table__cell {
@@ -276,19 +277,16 @@
   background-color: #000;
   min-height: 350px;
   color: white;
-  border: 1px solid green;
 }
 
 .footer__columns {
   position: relative;
   width: 90%;
-  height: 100%;
+  min-height: 250px;
   margin: 0 auto;
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
   padding-top: 60px;
-  margin-bottom: 40px;
 }
 
 .footer__column_content_copyright {
