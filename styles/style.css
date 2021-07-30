@@ -1,13 +1,11 @@
 .page {
   min-width: 1100px;
-  /* we don't know how to make mobile versions of websites yet, */
-  /* so here we've set a minimum page width */
   max-width: 1600px;
-  /* here we've set a maximum page width */
   margin: 0 auto;
-  /* this ensures that all content is centered on screens wider than 1600px */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+
+/* header block styles */
 
 .header {
   height: 100vh;
@@ -15,7 +13,6 @@
   max-height: 756px;
   background-color: #f2f2f2;
   position: relative;
-  /* parameters for the header section */
 }
 
 .logo {
@@ -75,7 +72,6 @@
   z-index: 1;
 }
 
-/* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -85,10 +81,16 @@
   background-color: #2e80ed;
 }
 
+/* description block styles */
+
+.description {
+  padding: 100px 0;
+}
+
 .two-columns {
   display: flex;
   justify-content: space-between;
-  margin: 100px auto;
+  margin: 0 auto;
   width: 80%;
 }
 
@@ -122,8 +124,10 @@
   font-weight: bold;
 }
 
+/* digits block styles */
+
 .digits {
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .digits__content {
@@ -179,6 +183,8 @@
   margin-bottom: 0;
 }
 
+/* feynman block styles */
+
 .feynman {
   background-color: #f2f2f2;
   position: relative;
@@ -226,6 +232,8 @@
   height: 637px;
 }
 
+/* kaufman block styles */
+
 .kaufman {
   overflow: hidden;
   background-color: #000;
@@ -258,13 +266,13 @@
   margin-bottom: 90px;
 }
 
-/* including elements with key-value modifiers */
 .table__cell_theme_dark {
   width: 200px;
   margin-right: 0;
   margin-top: 80px;
 }
 
+/* I did'nt use this class, can I leave it from CSS and HTML files? */
 .table__heading_theme_dark {
 
 }
@@ -272,6 +280,8 @@
 .table__text_theme_dark {
   margin-bottom: 0;
 }
+
+/* footer block styles */
 
 .footer {
   background-color: #000;
@@ -308,6 +318,11 @@
   bottom: 0;
 }
 
+/* I did'nt use this class, can I leave it from CSS and HTML files? */
+.footer__column_content_about {
+
+}
+
 .footer__column-heading {
   margin: 0;
   line-height: 30px;
@@ -327,6 +342,11 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+}
+
+/* I did'nt use this class, can I leave it from CSS and HTML files? */
+.footer__column_content_social {
+
 }
 
 .footer__social-icons {
