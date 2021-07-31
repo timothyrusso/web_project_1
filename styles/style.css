@@ -141,6 +141,8 @@
   font-size: 60px;
   font-weight: bold;
   margin: 0;
+  position: relative;
+  z-index: 1;
 }
 
 .section-subtitle {
@@ -148,6 +150,8 @@
   font-size: 24px;
   font-weight: normal;
   margin: 20px 0 0 0;
+  position: relative;
+  z-index: 1;
 }
 
 .table {
@@ -158,6 +162,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0;
+  position: relative;
+  z-index: 1;
 }
 
 .table__cell {
@@ -238,43 +244,38 @@
   overflow: hidden;
   background-color: #000;
   position: relative;
-  color: white;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 .kaufman__triangle {
   position: absolute;
   right: -124px;
+  top: 0;
   z-index: 0;
   width: 660px;
   height: 636px;
 }
 
 .section-title__theme_dark {
-  position: relative;
-  z-index: 1;
-  margin-top: 90px;
+  color: white;
 }
 
 .section-subtitle__theme_dark {
-  position: relative;
-  z-index: 1;
+  color: white;
 }
 
 .table__theme_dark {
-  position: relative;
-  z-index: 1;
-  margin-bottom: 90px;
+  color: white;
 }
 
 .table__cell_theme_dark {
   width: 200px;
-  margin-right: 0;
   margin-top: 80px;
 }
 
-/* I did'nt use this class, can I leave it from CSS and HTML files? */
 .table__heading_theme_dark {
-
+  color: white;
 }
 
 .table__text_theme_dark {
@@ -318,11 +319,6 @@
   bottom: 0;
 }
 
-/* I did'nt use this class, can I leave it from CSS and HTML files? */
-.footer__column_content_about {
-
-}
-
 .footer__column-heading {
   margin: 0;
   line-height: 30px;
@@ -342,11 +338,6 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-}
-
-/* I did'nt use this class, can I leave it from CSS and HTML files? */
-.footer__column_content_social {
-
 }
 
 .footer__social-icons {
