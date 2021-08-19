@@ -1,3 +1,12 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -76,6 +85,11 @@
   top: 64px;
   right: 0;
   background-color: #2e80ed;
+  transform: rotate(15deg);
+}
+
+.rotation {
+  animation: rotation 20s linear infinite;
 }
 
 /* description block styles */
