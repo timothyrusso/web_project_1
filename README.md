@@ -8,7 +8,7 @@ This project contains some animations, links and embedded videos.
 
 ## Technologies
 
-This project is made with HTML5 and CSS3, it contains flexbox, animations, embedded content and it follows the BEM Methodology with a structured file path organisation.
+This project is made with HTML5 and CSS3, it contains flexbox, animations, embedded content and it follows the BEM Methodology with a structured file path organization.
 
 ## Plans for finalizing the project
 
