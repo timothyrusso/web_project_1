@@ -13,3 +13,7 @@ This project is made with HTML5 and CSS3, it contains flexbox, animations, embed
 ## Plans for finalizing the project
 
 Next step will be to develop the responsive layout.
+
+## Link of the project
+
+https://timothyrusso.github.io/web_project_1/
