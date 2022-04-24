@@ -7,3 +7,32 @@
   background-color: #2e80ed;
   transform: rotate(15deg);
 }
+
+@media screen and (max-width: 743px) {
+  .header__square-pic {
+    height: 328px;
+    width: 328px;
+    top: 300px;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .header__square-pic {
+    height: 300px;
+    width: 300px;
+    top: 400px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header__square-pic {
+    height: 270px;
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .header__square-pic {
+    top: 530px;
+  }
+}

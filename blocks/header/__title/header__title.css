@@ -9,3 +9,37 @@
   font-weight: bold;
   position: relative;
 }
+
+@media screen and (max-width: 1024px) {
+  .header__title {
+    max-width: 600px;
+    font-size: 90px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .header__title {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 743px) {
+  .header__title {
+    position: absolute;
+    top: 200px;
+    font-size: 60px;
+    line-height: 66px;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .header__title {
+    top: 160px;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .header__title {
+    top: 140px;
+  }
+}

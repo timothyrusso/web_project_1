@@ -7,11 +7,37 @@
   z-index: 1;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
+  .header__main-illustration {
+    max-width: 600px;
+    min-height: 500px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header__main-illustration {
+    max-width: 500px;
+    min-height: 400px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__main-illustration {
+    max-width: 450px;
+    min-height: 350px;
+  }
+}
+
+@media screen and (max-width: 840px) {
   .header__main-illustration {
     max-width: 400px;
     min-height: 300px;
-    bottom: 0;
-    right: 0;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .header__main-illustration {
+    max-width: 350px;
+    min-height: 250px;
   }
 }
