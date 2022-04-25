@@ -5,3 +5,10 @@
   width: 867px;
   height: 637px;
 }
+
+@media screen and (max-width: 1460px) {
+  .feynman__image {
+    max-width: 767px;
+    height: 563px;
+  }
+}

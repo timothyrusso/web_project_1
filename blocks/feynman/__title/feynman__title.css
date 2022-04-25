@@ -9,3 +9,9 @@
   z-index: 1;
   text-align: center;
 }
+
+@media screen and (max-width: 1300px) {
+  .feynman__title {
+    font-size: 100px;
+  }
+}
