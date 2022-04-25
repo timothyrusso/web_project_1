@@ -5,3 +5,16 @@
   font-weight: normal;
   text-align: center;
 }
+
+@media screen and (max-width: 780px) {
+  .cards__description {
+    line-height: 20px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .cards__description {
+    margin: 0 30px;
+  }
+}

@@ -8,3 +8,16 @@
   margin: 0 auto;
   text-align: center;
 }
+
+@media screen and (max-width: 510px) {
+  .section-title {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .section-title {
+    font-size: 35px;
+    line-height: 49px;
+  }
+}

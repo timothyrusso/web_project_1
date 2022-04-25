@@ -8,3 +8,10 @@
   width: 60%;
   text-align: center;
 }
+
+@media screen and (max-width: 510px) {
+  .section-subtitle {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

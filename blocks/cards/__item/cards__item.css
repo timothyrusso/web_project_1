@@ -3,3 +3,10 @@
   margin-top: 60px;
   flex-basis: 33.333333%;
 }
+
+@media screen and (max-width: 740px) {
+  .cards__item {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
