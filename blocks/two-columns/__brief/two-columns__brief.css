@@ -1,8 +1,33 @@
 .two-columns__brief {
-  width: 175px;
+  max-width: 175px;
   color: #2e80ed;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
   margin: 0;
+}
+
+@media screen and (max-width: 1120px) {
+  .two-columns__brief {
+    margin-bottom: 20px;
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .two-columns__brief {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .two-columns__brief {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .two-columns__brief {
+    font-size: 12px;
+  }
 }
