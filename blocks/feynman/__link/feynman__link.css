@@ -33,3 +33,33 @@
     top: 42.5%;
   }
 }
+
+@media screen and (max-width: 490px) {
+  .feynman__link {
+    top: 38%;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .feynman__link {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .feynman__link {
+    top: 65%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .feynman__link {
+    top: 57%;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .feynman__link {
+    top: 55%;
+  }
+}

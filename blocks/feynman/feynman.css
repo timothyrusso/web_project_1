@@ -3,3 +3,21 @@
   position: relative;
   min-height: 790px;
 }
+
+@media screen and (max-width: 610px) {
+  .feynman {
+    min-height: 690px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .feynman {
+    min-height: 590px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .feynman {
+    min-height: 520px;
+  }
+}
