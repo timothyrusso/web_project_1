@@ -19,3 +19,17 @@
     font-size: 30px;
   }
 }
+
+@media screen and (max-width: 1145px) {
+  .feynman__link {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .feynman__link {
+    right: 28px;
+    font-size: 20px;
+    top: 42.5%;
+  }
+}

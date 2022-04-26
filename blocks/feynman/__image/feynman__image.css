@@ -12,3 +12,17 @@
     height: 563px;
   }
 }
+
+@media screen and (max-width: 1145px) {
+  .feynman__image {
+    max-width: 667px;
+    height: 490px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .feynman__image {
+    max-width: 567px;
+    height: 416px;
+  }
+}

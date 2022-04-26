@@ -15,3 +15,22 @@
     font-size: 100px;
   }
 }
+
+@media screen and (max-width: 1145px) {
+  .feynman__title {
+    font-size: 85px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .feynman__title {
+    font-size: 80px;
+    padding-top: 80px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .feynman__title {
+    max-width: 600px;
+  }
+}
