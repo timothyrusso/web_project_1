@@ -5,3 +5,11 @@
   object-position: top;
   object-fit: cover;
 }
+
+@media screen and (max-width: 490px) {
+  .khan__book-pic {
+    max-width: 390px;
+    min-height: 200px;
+    margin: 0;
+  }
+}
