@@ -11,9 +11,15 @@
   }
 }
 
+@media screen and (max-width: 460px) {
+  .khan__title {
+    font-size: 60px;
+    max-width: 280px;
+  }
+}
+
 @media screen and (max-width: 410px) {
   .khan__title {
-    max-width: 280px;
     font-size: 45px;
   }
 }
