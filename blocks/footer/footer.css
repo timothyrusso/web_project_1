@@ -3,3 +3,9 @@
   min-height: 350px;
   color: white;
 }
+
+@media screen and (max-width: 520px) {
+  .footer {
+padding-bottom: 30px;
+  }
+}

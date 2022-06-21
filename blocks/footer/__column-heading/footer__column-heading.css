@@ -17,3 +17,9 @@
     line-height: 10px;
   }
 }
+
+@media screen and (max-width: 520px) {
+  .footer__column-heading {
+margin-top: 20px;
+  }
+}

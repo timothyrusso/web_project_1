@@ -10,3 +10,9 @@
     flex-basis: 150px;
   }
 }
+
+@media screen and (max-width: 520px) {
+  .footer__column_content_copyright {
+    flex-basis: 100px;
+  }
+}

@@ -8,9 +8,10 @@
   padding-top: 60px;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 520px) {
   .footer__columns {
     flex-direction: column;
-    min-height: 100px;
+    margin-left: 80px;
+    width: 50%;
   }
 }
