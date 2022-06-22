@@ -7,3 +7,9 @@
 .resources__logo:hover {
   opacity: 0.5;
 }
+
+@media screen and (max-width: 1080px) {
+  .resources__logo {
+    margin-bottom: 20px;
+  }
+}
