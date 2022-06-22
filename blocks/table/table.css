@@ -9,3 +9,15 @@
   position: relative;
   z-index: 1;
 }
+
+@media screen and (max-width: 1150px) {
+  .table {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .table {
+    justify-content: center;
+  }
+}
