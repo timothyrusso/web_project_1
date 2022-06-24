@@ -8,8 +8,11 @@ This project contains animations, links and embedded videos.
 
 ## Technologies
 
-This project is made with HTML5 and CSS3, it contains flexbox, animations, embedded content and it follows the BEM Methodology with a structured file path organization.
+This project is made with HTML5 and CSS3, it contains flexbox, animations, embedded content and it follows the BEM Methodology with a structured file path organization. The project is deployed on GitHub Pages.
 
 ## Link of the project
 
 https://timothyrusso.github.io/web_project_1/
+
+## Preview of the project
+
