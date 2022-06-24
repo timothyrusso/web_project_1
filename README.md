@@ -16,3 +16,8 @@ https://timothyrusso.github.io/web_project_1/
 
 ## Preview of the project
 
+![preview1](https://raw.githubusercontent.com/timothyrusso/web_project_1/main/images/preview1.png)
+
+![preview2](https://raw.githubusercontent.com/timothyrusso/web_project_1/main/images/preview2.png)
+
+![preview3](https://raw.githubusercontent.com/timothyrusso/web_project_1/main/images/preview3.png)
