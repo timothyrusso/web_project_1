@@ -1,18 +1,14 @@
-# WEB_PROJECT_1
+# Learning How to Learn Project
 
-WEB_PROJECT_1 is a simple landing page with no responsive layout.
+This is a simple landing page with responsive layout. It show some useful informations about how to study and how to learn.
 
 ## Functionality
 
-This project contains some animations, links and embedded videos.
+This project contains animations, links and embedded videos.
 
 ## Technologies
 
 This project is made with HTML5 and CSS3, it contains flexbox, animations, embedded content and it follows the BEM Methodology with a structured file path organization.
-
-## Plans for finalizing the project
-
-Next step will be to develop the responsive layout.
 
 ## Link of the project
 
